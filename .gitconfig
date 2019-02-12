@@ -1,0 +1,30 @@
+[user]
+	name = Joanna Bu
+	email = lemoncandy711@hotmail.com
+
+[alias]
+	dif = diff --color
+	a = add -u
+	co = checkout
+	ci = commit
+	ca = commit --amend
+	br = branch
+	st = status
+	hs = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	hist = log --graph --pretty=format:'%Cred%h%Creset |%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	g = log --oneline --graph --all --decorate --date=short
+	graph = log --oneline --graph --all --decorate
+	mg = log --graph --all --decorate
+	lg = log --graph --pretty=format:'%Cred%h%Creset |%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit
+[core]
+	editor = vim
+[color]
+	ui = auto
+[color "status"]
+	changed = yellow
+	added = green
+	untracked = red
