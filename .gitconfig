@@ -1,6 +1,6 @@
 [user]
-	name = Joanna Bu
-	email = lemoncandy711@hotmail.com
+	name = example
+	email = example@hotmail.com
 
 [alias]
 	dif = diff --color
